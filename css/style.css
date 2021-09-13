@@ -74,6 +74,8 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    background-color: white;
+    padding-bottom: 20px;
 }
 
 .left-side{
@@ -88,7 +90,7 @@ nav ul li{
 }
 
 ul li a{
-    line-height: 30px;
+    /*line-height: 30px;*/
     text-decoration: none;
     padding: 5px 10px;
     color: black
@@ -96,6 +98,7 @@ ul li a{
 
 li{
     vertical-align: middle;
+    line-height: 30px;
 }
 
 .right-side{
@@ -113,5 +116,22 @@ li{
     padding: 0 20px;
     border: none;
 }
+ /*Hero Section*/
 
+ .big-container {
+    max-width: 1367px;
+    width: 100%;
+    margin: auto;
+  }
 
+ .bg-hero{
+     background-color: rgba(180,208,231,255);
+     padding-top: 70px;
+     height: 500px;
+ }
+
+ .container {
+    max-width: 1010px;
+    width: 100%;
+    margin: auto;
+  }
