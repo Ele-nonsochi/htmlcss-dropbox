@@ -180,17 +180,17 @@ li{
 
 
 .border-coln{
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .border-cont{
-    width: 100%;
+    min-height: 200px;
     border: 1px solid lightgrey;
     margin-top: 20px;
-    padding: 5px 10px
+    padding-right: 10px;
+    padding-left: 10px;
     padding-bottom: 100px;
-
 }
 
 .promo-quantity{
@@ -207,6 +207,14 @@ ul li{
     padding-bottom: 10px;
 }
 
+ul .fix-icon i:nth-child(1){
+    margin-left: -16px;
+}
+
+.fix-icon{
+    padding-left: 16px;
+}
+
 .padding-list{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -220,7 +228,6 @@ hr {
 .fa-check{
     color: rgba(0,97,255,255);
 }
-
 
 
 /*Table full container*/
