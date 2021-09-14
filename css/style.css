@@ -173,11 +173,22 @@ li{
     padding-top: 20px;
 }
 
+.promotion-coln{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+.border-coln{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .border-cont{
-    /*margin: 10px 10px;*/
+    width: 100%;
     border: 1px solid lightgrey;
     margin-top: 20px;
-    padding-left: 15px;
+    padding: 5px 10px
     padding-bottom: 100px;
 
 }
@@ -187,6 +198,7 @@ li{
     border-bottom: 1px solid lightgrey;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 
 ul li{
@@ -209,9 +221,7 @@ hr {
     color: rgba(0,97,255,255);
 }
 
-.promotion-coln{
-    display: inline-block;
-}
+
 
 /*Table full container*/
 
