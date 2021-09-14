@@ -245,7 +245,7 @@ hr {
 }
 
 .text-enter-space:only-child{
-    line-height: 20px;
+    line-height: 10%;
 }
 
 .btn-float{
@@ -302,3 +302,14 @@ hr {
 .underline {
     text-decoration: underline;
 } 
+
+/*Square section*/
+
+.border-square-text{
+    padding-top: 150px;
+}
+
+.square-link{
+    margin-top: 40px;
+    color: rgba(11,104,255,255);
+}
