@@ -230,5 +230,75 @@ hr {
 }
 
 
-/*Table full container*/
+/*Enterprice section*/
 
+.enterprice-border{
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    min-height: 60px;
+}
+
+.text-enter-space{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+}
+
+.text-enter-space:only-child{
+    line-height: 20px;
+}
+
+.btn-float{
+    float: right;
+    bottom: 40px;
+    right: 5px;
+}
+
+/*Partner section*/
+
+.partner-section{
+    min-height: 300px;
+    position: relative;
+    top: 70px;
+}
+
+.partner-img{
+    width: 100%;
+    min-height:300px;
+    object-fit: contain;
+}
+
+.btn-bw{
+    color:black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    background-color: white;
+    
+}
+
+.partner-border{
+    padding-left: 25px;
+    margin-top: 70px;
+}
+
+/*Table with img*/
+
+.business-section{
+    min-height: 300px;
+    position: relative;
+    top: 120px;
+}
+
+.operations{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.operations img {
+    max-width: 100%;
+}
+
+.underline {
+    text-decoration: underline;
+} 
