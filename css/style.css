@@ -131,7 +131,7 @@ li{
 }
  /*Hero Section*/
 
- .bg-hero{
+.bg-hero{
      background-color: rgba(180,208,231,255);
      padding-top: 70px;
 }
@@ -317,7 +317,7 @@ hr {
 .square-section{
     width: 100%;
     position: relative;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .square-section > div{
@@ -409,4 +409,92 @@ hr {
     padding: 20px;
 }
 
+/**/
 
+.bg-square-box{
+    background-color: rgba(180,208,231,255);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.text-add{
+    width: 50%;
+    color:rgba(97,8,43,255);
+}
+
+.btn-box{
+     width: 50%;
+     float: right;
+     left: 50px;
+}
+.white-btn{
+    background-color: white;
+    color:black;
+    line-height: 30px;
+    padding: 0 30px;
+    border: none;
+    text-decoration: none;
+}
+
+/*Q & A*/
+
+.container-qea{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.qea-border-h2{
+    line-height: 120px;
+    border-bottom: 1px solid black;
+}
+
+.qea-border{
+    border-bottom: 1px solid black;
+    line-height: 60px ;
+}
+
+.float-right{
+    float: right;
+    top: 5px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    padding-top: 70px;
+    color: white;
+}
+
+.container-footer {
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+.col_1_5 {
+    width: calc(100% / 5);
+    float: left;
+}
+
+.footer-ul {
+    padding-top: 30px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.lang {
+    border-top: 1px solid white;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 120px;
+}
+
+.fas {
+    color: grey;
+    font-size: 12px;
+}
+
+.lang-color{
+    color: grey;
+}
