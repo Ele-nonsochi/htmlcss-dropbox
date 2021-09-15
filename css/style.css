@@ -245,14 +245,20 @@ hr {
 }
 
 .text-enter-space{
+    width: 70%;
     line-height: 40px;
 }
 
-.btn-float{
+.btn-float-container{
+    width: 40%;
+    float: right;
+}
+
+/*.btn-float{
     float: right;
     bottom: 40px;
     right: 5px;
-}
+}*/
 
 /*Partner section*/
 
@@ -490,7 +496,7 @@ footer{
     width: 120px;
 }
 
-.fas {
+.globe-icon {
     color: grey;
     font-size: 12px;
 }
