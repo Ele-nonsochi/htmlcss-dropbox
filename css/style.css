@@ -138,7 +138,6 @@ li{
 
 .text-box{
     float: left;
-    
 }
 
 .img-box{
@@ -151,15 +150,21 @@ li{
     padding-top: 30px;
 }
 
-.btn-text-box{
+.btn-margin-box{
+    display: inline-block;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .hero-section{
     min-height: 300px;
     position: relative;
     top: 100px;
+}
+
+.arrow-hero{
+    margin-top: 10px;
 }
 
 /*Second section*/
@@ -245,13 +250,13 @@ hr {
 }
 
 .text-enter-space{
-    width: 70%;
     line-height: 40px;
 }
 
 .btn-float-container{
-    width: 40%;
     float: right;
+    right: 0;
+    left: 50px;
 }
 
 /*.btn-float{
@@ -278,7 +283,7 @@ hr {
     border: 1px solid black;
     padding: 5px 20px;
     background-color: white;
-    
+    text-decoration: none;
 }
 
 .partner-border{
@@ -415,7 +420,7 @@ hr {
     padding: 20px;
 }
 
-/**/
+/*Dropbox Business*/
 
 .bg-square-box{
     background-color: rgba(180,208,231,255);
@@ -424,14 +429,12 @@ hr {
 }
 
 .text-add{
-    width: 50%;
     color:rgba(97,8,43,255);
 }
 
 .btn-box{
-     width: 50%;
      float: right;
-     left: 50px;
+     margin-top: 20px;
 }
 .white-btn{
     background-color: white;
@@ -467,7 +470,7 @@ hr {
 /*Footer*/
 
 footer{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding-top: 70px;
     color: white;
 }
@@ -482,10 +485,14 @@ footer{
     float: left;
 }
 
-.footer-ul {
+.footer-ul li a{
+    color: white;
+    margin-right: 0;
+}
+
+.footer-ul{
     padding-top: 30px;
     list-style: none;
-    line-height: 30px;
 }
 
 .lang {
@@ -503,4 +510,47 @@ footer{
 
 .lang-color{
     color: grey;
+}
+
+
+
+
+/*------------------------------*/
+
+.accordion-containe{
+
+}
+
+.accordion-item{
+    border-bottom: 1px solid black;
+}
+
+.accordion-item-content{
+    display: none;
+}
+
+.accordion-item:focus .accordion-item-content{
+    display: block;
+}
+
+
+
+.container-qea{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.qea-border-h2{
+    line-height: 120px;
+    border-bottom: 1px solid black;
+}
+
+.qea-border{
+    border-bottom: 1px solid black;
+    line-height: 60px ;
+}
+
+.float-right{
+    float: right;
+    top: 5px;
 }
