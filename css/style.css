@@ -128,7 +128,31 @@ li{
     line-height: 30px;
     padding: 0 20px;
     border: none;
+    transition: background-color 0.2s ease-in-out;
 }
+
+.special-btn{
+    background-color:white;
+    color:rgba(0,97,255,255);
+    border: 1px solid  rgba(0,97,255,255);
+    line-height: 30px;
+    padding: 0 20px;
+    transition: outline 0.2s ease-in;
+}
+
+/*Transition*/
+
+.blu-btn:hover{
+    background-color: lightblue;
+    color: white;
+    opacity: 0.8;
+}
+
+.special-btn:hover{
+   outline: 2px solid rgba(0,97,255,255);
+}
+
+
  /*Hero Section*/
 
 .bg-hero{
