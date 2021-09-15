@@ -661,8 +661,31 @@ footer{
 }
 
 
+/*---------TRY------------*/
 
+.try-different{
+   /* background-color: indianred;*/
+    min-height: 500px;
+}
 
+details > summary{
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    position: relative;
+}
 
+details > p {
+    padding: 10px;
+}
 
+.try-item-icon{
+    position: absolute;
+    right: 20px;
+    transform: rotateZ(0deg);
+    transition: transform 0.3s;
+}
 
+summary:focus .try-item-icon{
+    transform: rotateZ(180deg);
+}
