@@ -50,6 +50,10 @@
     margin: auto;
 }
 
+.top-distance-all{
+    margin-top: 70px;
+}
+
   /*Colon Calc*/
 
   .col-1_9{
@@ -122,6 +126,8 @@ li{
     padding-top: 20px;
 }
 
+/*Button*/
+
 .blu-btn{
     background-color: rgba(0,97,255,255);
     color: white;
@@ -138,6 +144,16 @@ li{
     background-color: white;
     text-decoration: none;
     transition: background-color 0.2s ease-in;
+}
+
+.white-btn{
+    background-color: white;
+    color:black;
+    /*line-height: 30px;*/
+    padding: 20px 30px;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.1s ease;
 }
 
 .special-btn{
@@ -166,6 +182,82 @@ li{
     opacity: 0.4;
 }
 
+.white-btn:hover{
+    background-color: lightgrey;
+    opacity: 0.6;
+}
+
+/*Input Style*/
+
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.container-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+}
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+  
+.checkmark:hover{
+    background-color: #ccc;
+  }
+ /*point inside*/ 
+.container-checkbox .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+  
+.checkmark input:checked {
+    background-color: #2196F3;
+  }
+  
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+.container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+/*Animation Arrow*/
+
+.bounce {
+     animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(30px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+  
  /*Hero Section*/
 
 .bg-hero{
@@ -201,7 +293,8 @@ li{
 }
 
 .arrow-hero{
-    margin-top: 10px;
+    margin-top: 30px;
+    font-size: 30px;
 }
 
 /*Second section*/
@@ -274,10 +367,17 @@ hr {
 
 /*Enterprice section*/
 
+.clearfix:after{
+    content: "" ;
+    display: table;
+    clear: both;
+}
+
+
 .enterprice-border{
     margin-top: 30px;
     border: 1px solid lightgray;
-    min-height: 60px;
+    /*min-height: 60px;*/
 }
 
 .text-enter-space{
@@ -290,23 +390,17 @@ hr {
     line-height: 40px;
 }
 
-.btn-float-container{
+.btn-float{
     float: right;
     right: 0;
     left: 50px;
 }
 
-/*.btn-float{
-    float: right;
-    bottom: 40px;
-    right: 5px;
-}*/
 
 /*Partner section*/
 
 .partner-section{
     min-height: 300px;
-    margin-top: 70px;
 }
 
 .partner-img{
@@ -332,7 +426,6 @@ hr {
 
 .business-section{
     min-height: 300px;
-    margin-top: 70px;
 }
 
 .operations{
@@ -350,10 +443,6 @@ hr {
 } 
 
 /*Square section*/
-
-.border-square-text{
-    margin-top: 70px;
-}
 
 .square-link{
     line-height: 40px;
@@ -473,6 +562,7 @@ hr {
      float: right;
      margin-top: 20px;
 }
+
 .white-btn{
     background-color: white;
     color:black;
@@ -486,7 +576,6 @@ hr {
 
 .container-qea{
     margin-top: 70px;
-    margin-bottom: 70px;
 }
 
 .qea-border-h2{
@@ -530,11 +619,11 @@ hr {
 
 footer{
     background-color: rgb(0, 0, 0);
-    padding-top: 70px;
     color: white;
 }
 
 .container-footer {
+    padding-top: 50px;
     margin-right: 50px;
     margin-left: 70px;
 }
@@ -570,6 +659,9 @@ footer{
 .lang-color{
     color: grey;
 }
+
+
+
 
 
 
