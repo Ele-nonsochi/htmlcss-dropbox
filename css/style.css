@@ -131,6 +131,15 @@ li{
     transition: background-color 0.2s ease-in-out;
 }
 
+.btn-bw{
+    color:black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    background-color: white;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in;
+}
+
 .special-btn{
     background-color:white;
     color:rgba(0,97,255,255);
@@ -152,6 +161,10 @@ li{
    outline: 2px solid rgba(0,97,255,255);
 }
 
+.btn-bw:hover{
+    background-color: lightgrey;
+    opacity: 0.4;
+}
 
  /*Hero Section*/
 
