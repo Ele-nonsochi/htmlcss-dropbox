@@ -457,14 +457,36 @@ hr {
     border-bottom: 1px solid black;
 }
 
-.qea-border{
+.accordion-item{
     border-bottom: 1px solid black;
-    line-height: 60px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    position: relative;
 }
 
-.float-right{
-    float: right;
-    top: 5px;
+.accordion-item-icon{
+    position: absolute;
+    right: 20px;
+    transform: rotateZ(0deg);
+    transition: transform 0.3s;
+}
+
+
+.accordion-item-content{
+    padding-top: 20px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s;
+}
+
+.accordion-item:focus .accordion-item-content{
+    height: 300px;
+    overflow: auto;
+}
+
+.accordion-item:focus .accordion-item-icon{
+    transform: rotateZ(180deg);
 }
 
 /*Footer*/
@@ -515,42 +537,3 @@ footer{
 
 
 
-/*------------------------------*/
-
-.accordion-containe{
-
-}
-
-.accordion-item{
-    border-bottom: 1px solid black;
-}
-
-.accordion-item-content{
-    display: none;
-}
-
-.accordion-item:focus .accordion-item-content{
-    display: block;
-}
-
-
-
-.container-qea{
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.qea-border-h2{
-    line-height: 120px;
-    border-bottom: 1px solid black;
-}
-
-.qea-border{
-    border-bottom: 1px solid black;
-    line-height: 60px ;
-}
-
-.float-right{
-    float: right;
-    top: 5px;
-}
